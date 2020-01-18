@@ -1,0 +1,153 @@
+Choose an action by pressing the number for the action (1,2,3...):
+(1)Create Node
+(2)Check if List is Empty
+(3)Check List Size
+(4)Get an Element from the List
+(5)Set and ELement in the List
+(6)Add and Element to the List
+(7)Remove an Element from the List
+(8)Exit the Program
+
+Choice1
+The list is not empty. Return 0
+Number of steps taken to complete action 3
+Choice2
+The size of the list is 0
+Number of steps taken to complete action 2
+Choice3
+Get which index in the list? (0,1,2,3...)
+0
+Cannot complete action. Input not valid, or index is not being used. Return value -1
+Number of steps taken to complete action 13
+Choice4
+Set which index in the list? (0,1,2,3...)
+0
+Value for this index in the list? (0,1,2,3...)
+45
+Cannot complete action. Input not valid or elements must first be added.
+Only indexes lest than 0 can be set. Return value -1.
+Number of steps taken to complete action 11
+Choice6
+Remove at which index in the list? (0,1,2,3...)
+0
+Can not complete action. Input not valid. Return value -1
+Number of steps taken to complete action 11
+Choice5
+Add at which index in the list? (0,1,2,3...)
+1
+Value for this index in the list? (0,1,2,3...)
+89
+Cannot complete action. Input not valid, next availible index for addition is 0.
+ More elemebts must be added to use this index. Return value -1
+Number of steps taken to complete action 6
+Choice5
+Add at which index in the list? (0,1,2,3...)
+0
+Value for this index in the list? (0,1,2,3...)
+56
+The new size of the list is 1
+Number of steps taken to complete action 21
+Current List: 56, 
+Choice6
+Remove at which index in the list? (0,1,2,3...)
+0
+The element you removed is 56 at index 0 The size of the list is now 0
+Number of steps taken to complete action 31
+Choice5
+Add at which index in the list? (0,1,2,3...)
+0
+Value for this index in the list? (0,1,2,3...)
+223
+The new size of the list is 1
+Number of steps taken to complete action 21
+Current List: 223, 
+Choice5
+Add at which index in the list? (0,1,2,3...)
+0
+Value for this index in the list? (0,1,2,3...)
+34
+The new size of the list is 2
+Number of steps taken to complete action 32
+Current List: 34, 223, 
+Choice5
+Add at which index in the list? (0,1,2,3...)
+2
+Value for this index in the list? (0,1,2,3...)
+45
+The new size of the list is 3
+Number of steps taken to complete action 36
+Current List: 34, 223, 45, 
+Choice5
+Add at which index in the list? (0,1,2,3...)
+1
+Value for this index in the list? (0,1,2,3...)
+98
+The new size of the list is 4
+Number of steps taken to complete action 33
+Current List: 34, 98, 223, 45, 
+Choice6
+Remove at which index in the list? (0,1,2,3...)
+0
+The element you removed is 34 at index 0 The size of the list is now 3
+Number of steps taken to complete action 34
+Current List: 98, 223, 45, 
+Choice6
+Remove at which index in the list? (0,1,2,3...)
+2
+The element you removed is 45 at index 2 The size of the list is now 2
+Number of steps taken to complete action 19
+Current List: 98, 223, 
+Choice6
+Remove at which index in the list? (0,1,2,3...)
+1
+The element you removed is 223 at index 1 The size of the list is now 1
+Number of steps taken to complete action 16
+Current List: 98, 
+Choice5
+Add at which index in the list? (0,1,2,3...)
+1
+Value for this index in the list? (0,1,2,3...)
+78
+The new size of the list is 2
+Number of steps taken to complete action 33
+Current List: 98, 78, 
+Choice1
+The list is not empty. Return 0
+Number of steps taken to complete action 3
+Current List: 98, 78, 
+Choice2
+The size of the list is 2
+Number of steps taken to complete action 2
+Current List: 98, 78, 
+Choice3
+Get which index in the list? (0,1,2,3...)
+0
+The element at index 0 is 98
+Number of steps taken to complete action 15
+Current List: 98, 78, 
+Choice3
+Get which index in the list? (0,1,2,3...)
+1
+The element at index 1 is 78
+Number of steps taken to complete action 18
+Current List: 98, 78, 
+Choice4
+Set which index in the list? (0,1,2,3...)
+0
+Value for this index in the list? (0,1,2,3...)
+45
+The element is now 45 at index 0 the value replaced was 98
+Number of steps taken to complete action 15
+Current List: 45, 78, 
+Choice4
+Set which index in the list? (0,1,2,3...)
+1
+Value for this index in the list? (0,1,2,3...)
+888
+The element is now 888 at index 1 the value replaced was 78
+Number of steps taken to complete action 18
+Current List: 45, 888, 
+Choice7
+Exiting program: 1
+Current List: 45, 888, 
+The total amout of steps taken during this session was: 393
